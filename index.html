@@ -11,15 +11,23 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <style>
+      h1,
+      p {
+        color: #737373;
+      }
+    </style>
   </head>
-  <body>
+  <body style="background-color: #000000">
     <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top fw-bold"
-      style="background-color: rgba(84, 140, 255, 0.103)"
+      style="background-color: rgba(27, 24, 17, 0.8)"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">Bintang Dwitama</a>
+        <a class="navbar-brand" href="#" style="color: #737373"
+          >Bintang Dwitama</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -33,180 +41,137 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
-            <a class="nav-link" href="#">Professional Project</a>
-            <a class="nav-link" href="#">Personal Project</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#About"
+              style="color: #737373"
+              >ABOUT</a
+            >
+            <a class="nav-link" href="#Project" style="color: #737373"
+              >PROJECT</a
+            >
+            <a class="nav-link" href="#Contact" style="color: #737373"
+              >CONTACT</a
+            >
           </div>
         </div>
       </div>
     </nav>
     <!-- End of Navbar Section -->
 
-    <!-- Jumbotron -->
-    <section
-      class="text-center"
-      style="background-color: #93ffd8; padding-top: 5rem"
-    >
-      <img
-        class="rounded-circle"
-        src="img/Profile Pict.jpg"
-        alt="Picture"
-        width="200"
-      />
-      <h1 class="display-6 fw-bold">Bintang Dwitama</h1>
-      <p class="lead">Game Programmer | Game Designer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#cfffdc"
-          fill-opacity="1"
-          d="M0,128L48,144C96,160,192,192,288,181.3C384,171,480,117,576,117.3C672,117,768,171,864,186.7C960,203,1056,181,1152,160C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End of Jumbotron Section -->
-
     <!-- About Section -->
-    <section class="text-center" style="background-color: #cfffdc">
-      <h1 class="display-6 fw-bold">About Me</h1>
-      <div class="d-flex bd-highlight m-5">
-        <div class="p-2 flex-fill bd-highlight">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            delectus architecto vero iste debitis distinctio? Nam ea quia, dolor
-            aliquid deserunt accusantium praesentium velit voluptatum quo,
-            tenetur, quidem alias labore!
-          </p>
+    <section id="About" style="padding-top: 3.5vw; padding-bottom: 6vw">
+      <h1 class="fw-bold text-center" style="font-size: 2.5vw">ABOUT ME</h1>
+      <hr size="10" style="color: #303030" />
+      <div class="container d-flex bd-highlight m-5 align-items-center pt-4">
+        <div class="p-2 flex-fill bd-highlight pe-5">
+          <img src="img/Profile Pict.jpg" alt="" width="500" />
         </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            delectus architecto vero iste debitis distinctio? Nam ea quia, dolor
-            aliquid deserunt accusantium praesentium velit voluptatum quo,
-            tenetur, quidem alias labore!
+        <div class="flex-fill bd-highlight">
+          <p class="fs-3">
+            Hello Everyone! I'm Bintang Dwitama or Bintang for short. I'm
+            currently in my third year at Sriwijaya University, located in the
+            Indonesia. I've been interested in the game development industry
+            since I was 12, but I tried to do game development just six months
+            ago
           </p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#93ffd8"
-          fill-opacity="1"
-          d="M0,192L48,202.7C96,213,192,235,288,245.3C384,256,480,256,576,213.3C672,171,768,85,864,85.3C960,85,1056,171,1152,197.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <!-- End of About Section -->
+    <hr size="10" style="color: #303030" />
 
-    <!-- Professional Project Section -->
-    <section class="text-center" style="background-color: #93ffd8">
-      <h1 class="display-6 fw-bold">Professional Project</h1>
-      <div class="d-flex bd-highlight mt-5">
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body" style="background-color: #93ffd8">
-              <p class="card-text">Project Description 1</p>
-            </div>
-          </div>
+    <!-- Project Section -->
+    <section id="Project" style="padding-top: 3.5vw; padding-bottom: 6vw">
+      <h1 class="display-6 fw-bold text-center">PROJECT</h1>
+      <hr size="10" style="color: #303030" />
+      <div class="container d-flex bd-highlight mt-5 align-items-center">
+        <div class="p-2 flex-fill bd-highlight pe-5">
+          <img src="img/Poster Manuk.jpeg" height="600" alt="" />
         </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body" style="background-color: #93ffd8">
-              <p class="card-text">Project Description 2</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body" style="background-color: #93ffd8">
-              <p class="card-text">Project Description 3</p>
-            </div>
-          </div>
+        <div class="p-2 flex-fill bd-highlight fs-3">
+          <p>
+            Manuk: Wild Life is my first game development project. This project
+            is a capstone project for a Game Development Course and Bootcamp
+            held by Agate International, my team, called Berandal Studio, worked
+            on this project for about four months.
+          </p>
+          <p>
+            My role in this project is game programmer lead, and my job desc is
+            to code the mechanics and dynamics for the game and make sure my
+            programmer team does their work correctly.
+          </p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#cfffdc"
-          fill-opacity="1"
-          d="M0,288L48,277.3C96,267,192,245,288,245.3C384,245,480,267,576,256C672,245,768,203,864,192C960,181,1056,203,1152,192C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End of Professional Project Section -->
-
-    <!-- Personal Project Section -->
-    <section class="text-center" style="background-color: #cfffdc">
-      <h1 class="display-6 fw-bold">Personal Project</h1>
-      <div class="d-flex bd-highlight mt-5">
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Project Description 1</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Project Description 2</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card m-auto" style="width: 18rem">
-            <img src="img/Profile Pict.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-text">Project Description 3</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#93ffd8"
-          fill-opacity="1"
-          d="M0,256L48,234.7C96,213,192,171,288,165.3C384,160,480,192,576,186.7C672,181,768,139,864,138.7C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <!-- End of Personal Project Section -->
+    <hr size="10" style="color: #303030" />
 
     <!-- Contact Section -->
-    <section class="text-center" style="background-color: #93ffd8">
-      <h1 class="display-6 fw-bold mb-5">Contact Me</h1>
-      <p>
+    <section class="text-center" id="Contact">
+      <h1 class="display-6 fw-bold mb-5">CONTACT ME</h1>
+      <hr size="10" style="color: #303030" />
+      <p class="fs-3">
         Feel free to send me a message here:
-        <span><a href="">bintangdwitama160501@gmail.com</a></span
-        >, i'll try to respond as quick as i can! I'm also on social media if
+        <span
+          ><a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=bintangdwitama160501@gmail.com"
+            style="color: #303030"
+            >bintangdwitama160501@gmail.com</a
+          ></span
+        >. I'll try to respond as quickly as I can! I'm also on social media if
         you need me :
       </p>
       <p class="m-auto pb-3">
         <span class="m-2"
-          ><a href=""><img src="img/instagram.png" alt="" width="40" /></a
+          ><a href="https://www.instagram.com/bintang_dwitama/"
+            ><img src="img/instagram.png" alt="" width="40" /></a
         ></span>
         <span class="m-2"
-          ><a href=""><img src="img/linkedin.png" alt="" width="40" /></a
+          ><a href="https://www.linkedin.com/in/bintang-dwitama-243347196/"
+            ><img src="img/linkedin.png" alt="" width="40" /></a
         ></span>
         <span class="m-2"
-          ><a href=""><img src="img/facebook.png" alt="" width="40" /></a
+          ><a href="https://www.facebook.com/roronoah.zoro.92"
+            ><img src="img/facebook.png" alt="" width="40" /></a
         ></span>
       </p>
     </section>
     <!-- End of Contact Section -->
 
     <!-- Credit Section -->
-    <section class="text-center" style="background-color: #548cff">
+    <section class="text-center" style="background-color: #1b1811">
       <p class="small mb-auto">Copyright © 2022 by Bintang Dwitama</p>
     </section>
     <!-- End of Credit Section -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('a').on('click', function (event) {
+          if (this.hash !== '') {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
   </body>
 </html>
